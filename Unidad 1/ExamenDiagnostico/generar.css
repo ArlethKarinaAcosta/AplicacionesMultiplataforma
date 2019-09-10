@@ -1,0 +1,60 @@
+.buton{
+    background: red;
+
+}
+
+.buton:hover{
+    background-color: salmon;
+
+}
+
+.principal{
+    background: black;
+    border-color: white;
+    color: white;
+    width: 40%;
+}
+
+
+input[type=number], select{
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bienvenida{
+    font-size: 150%;
+    font-family: sans-serif;
+}
+
+.ctabla
+		{
+			margin-left: 50px;
+		}
+		.titulo
+		{
+			border: 5px;
+			background: #000000;
+            color: #ffffff;
+            text-align: center;
+            font-family: 'Arial';
+		}
+		.numeros
+		{
+
+            width: 300px;
+            text-align: center;
+		}
+		.calculo
+		{
+			text-align: left;
+		}
+		.resultado
+		{
+			text-align: right;
+		}
+

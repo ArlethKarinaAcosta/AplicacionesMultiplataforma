@@ -1,0 +1,55 @@
+div#lateral{
+    background: burlywood;
+    width: 500px;
+    margin: auto;
+    border: double;
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    line-height: 1.6em;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], select{
+    width: 100%;
+    background-color: red;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: darkred;
+}
